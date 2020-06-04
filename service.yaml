@@ -31,8 +31,8 @@ spec:
     secrets: []
   upstreams:
   - projectId: unotech
-    service: 'user'
+    service: '*'
   whitelists:
   - projectId: unotech
-    service: 'none'
+    service: '*'
 type: service
